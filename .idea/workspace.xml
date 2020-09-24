@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d00ff98c-2ca2-428b-941d-aa70857bf6a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Activity_07/source1.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/source1.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/source2.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/source3.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/source4.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/source5.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/source6.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/source7.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/source8.exp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/src/main/scala/CharClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/src/main/scala/LexemeUnit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/src/main/scala/LexicalAnalyzer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/src/main/scala/SyntaxAnalyzer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/src/main/scala/Token.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Activity_07/src/main/scala/Tree.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source1.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source10.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source11.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source12.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source13.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source14.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source15.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source2.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source3.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source4.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source5.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source6.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source7.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source8.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source9.pas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/CharClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/LexemeUnit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/LexicalAnalyzer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/SyntaxAnalyzer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Token.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Tree.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programming_assignment_1/src/main/scala/CharClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programming_assignment_1/src/main/scala/LexemeUnit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programming_assignment_1/src/main/scala/LexicalAnalyzer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programming_assignment_1/src/main/scala/SyntaxAnalyzer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programming_assignment_1/src/main/scala/Token.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programming_assignment_1/src/main/scala/Tree.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1hsrwFx0J7A8hsbR7MYqyoEY12V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LexicalAnalyzer">
+    <configuration name="LexicalAnalyzer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="LexicalAnalyzer" />
+      <module name="Programming_assignment_01" />
+      <option name="PROGRAM_PARAMETERS" value="source1.pas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyntaxAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SyntaxAnalyzer" />
+      <module name="Programming_assignment_01" />
+      <option name="PROGRAM_PARAMETERS" value="source1.pas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Tree" />
+      <module name="Programming_assignment_01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Programming_assignment_01" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LexicalAnalyzer" />
+      <item itemvalue="Application.SyntaxAnalyzer" />
+      <item itemvalue="Application.Tree" />
+      <item itemvalue="Scala REPL.Scala REPL" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LexicalAnalyzer" />
+        <item itemvalue="Application.SyntaxAnalyzer" />
+        <item itemvalue="Scala REPL.Scala REPL" />
+        <item itemvalue="Application.Tree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d00ff98c-2ca2-428b-941d-aa70857bf6a5" name="Default Changelist" comment="" />
+      <created>1600810881478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600810881478</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="207" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1600902173651">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="458" y="207" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.822@0.23.1440.822" timestamp="1600902173651" />
+    <state x="171" y="93" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600924403445">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="230" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1600812850594" />
+    <state x="171" y="93" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1600924403445" />
+    <state x="463" y="352" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1600811160363">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="463" y="352" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.1440.822@0.23.1440.822" timestamp="1600811160363" />
+    <state width="1398" height="265" key="GridCell.Tab.0.bottom" timestamp="1600925760039">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600903364383" />
+    <state width="1398" height="265" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1600925760039" />
+    <state width="1398" height="265" key="GridCell.Tab.0.center" timestamp="1600925760038">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600903364381" />
+    <state width="1398" height="265" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1600925760038" />
+    <state width="1398" height="265" key="GridCell.Tab.0.left" timestamp="1600925760038">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600903364381" />
+    <state width="1398" height="265" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1600925760038" />
+    <state width="1398" height="265" key="GridCell.Tab.0.right" timestamp="1600925760039">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600903364382" />
+    <state width="1398" height="265" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1600925760039" />
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1600912034711">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1600912034711" />
+    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1600912034710">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1600912034710" />
+    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1600912034710">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1600912034710" />
+    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1600912034710">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1600912034710" />
+    <state x="143" y="146" key="new project wizard" timestamp="1600909297102">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="143" y="135" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1600820003274" />
+    <state x="143" y="146" key="new project wizard/0.23.1440.822@0.23.1440.822" timestamp="1600909297102" />
+  </component>
+</project>
