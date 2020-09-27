@@ -2,7 +2,7 @@
  * CS3210 - Principles of Programming Languages - Fall 2020
  * Instructor: Thyago Mota
  * Description: Prg01 - CharClass
- * Student(s) Name(s):
+ * Student(s) Name(s): Echglene Woy
  */
 
 object CharClass extends Enumeration {
@@ -16,4 +16,5 @@ object CharClass extends Enumeration {
   val BLANK      = Value
   val OTHER      = Value
   val COMPARISON = Value
+
 }

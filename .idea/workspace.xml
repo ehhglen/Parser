@@ -93,27 +93,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/scala" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LexicalAnalyzer">
-    <configuration name="LexicalAnalyzer" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.SyntaxAnalyzer">
+    <configuration name="LexicalAnalyzer" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="LexicalAnalyzer" />
       <module name="Programming_assignment_01" />
-      <option name="PROGRAM_PARAMETERS" value="source1.pas" />
+      <option name="PROGRAM_PARAMETERS" value="source3.pas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyntaxAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SyntaxAnalyzer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SyntaxAnalyzer" />
       <module name="Programming_assignment_01" />
-      <option name="PROGRAM_PARAMETERS" value="source1.pas" />
+      <option name="PROGRAM_PARAMETERS" value="source9.pas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,15 +142,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LexicalAnalyzer" />
       <item itemvalue="Application.SyntaxAnalyzer" />
+      <item itemvalue="Application.LexicalAnalyzer" />
       <item itemvalue="Application.Tree" />
       <item itemvalue="Scala REPL.Scala REPL" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LexicalAnalyzer" />
-        <item itemvalue="Application.SyntaxAnalyzer" />
         <item itemvalue="Scala REPL.Scala REPL" />
         <item itemvalue="Application.Tree" />
       </list>
@@ -181,55 +182,91 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="458" y="207" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.822@0.23.1440.822" timestamp="1600902173651" />
-    <state x="171" y="93" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600924403445">
+    <state x="171" y="93" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601250803229">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="230" y="79" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1600812850594" />
-    <state x="171" y="93" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1600924403445" />
+    <state x="171" y="93" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1601250803229" />
     <state x="463" y="352" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1600811160363">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="463" y="352" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.1440.822@0.23.1440.822" timestamp="1600811160363" />
-    <state width="1398" height="265" key="GridCell.Tab.0.bottom" timestamp="1600925760039">
+    <state x="100" y="123" width="1240" height="622" key="DiffContextDialog" timestamp="1601101592868">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600903364383" />
-    <state width="1398" height="265" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1600925760039" />
-    <state width="1398" height="265" key="GridCell.Tab.0.center" timestamp="1600925760038">
+    <state x="100" y="123" width="1240" height="622" key="DiffContextDialog/0.23.1440.822@0.23.1440.822" timestamp="1601101592868" />
+    <state width="1398" height="344" key="GridCell.Tab.0.bottom" timestamp="1601250793321">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600903364381" />
-    <state width="1398" height="265" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1600925760038" />
-    <state width="1398" height="265" key="GridCell.Tab.0.left" timestamp="1600925760038">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601066800281" />
+    <state width="1398" height="344" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1601250793321" />
+    <state width="1398" height="344" key="GridCell.Tab.0.center" timestamp="1601250793320">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600903364381" />
-    <state width="1398" height="265" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1600925760038" />
-    <state width="1398" height="265" key="GridCell.Tab.0.right" timestamp="1600925760039">
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601066800280" />
+    <state width="1398" height="344" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1601250793320" />
+    <state width="1398" height="344" key="GridCell.Tab.0.left" timestamp="1601250793320">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600903364382" />
-    <state width="1398" height="265" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1600925760039" />
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1600912034711">
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601066800279" />
+    <state width="1398" height="344" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1601250793320" />
+    <state width="1398" height="344" key="GridCell.Tab.0.right" timestamp="1601250793321">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1600912034711" />
-    <state width="1398" height="264" key="GridCell.Tab.1.center" timestamp="1600912034710">
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601066800281" />
+    <state width="1398" height="344" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1601250793321" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom" timestamp="1601248986724">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1600912034710" />
-    <state width="1398" height="264" key="GridCell.Tab.1.left" timestamp="1600912034710">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601066800528" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1601248986724" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center" timestamp="1601248986723">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1600912034710" />
-    <state width="1398" height="264" key="GridCell.Tab.1.right" timestamp="1600912034710">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1601066800526" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1601248986723" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left" timestamp="1601248986723">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="264" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1600912034710" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1601066800526" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1601248986723" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right" timestamp="1601248986724">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1601066800527" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1601248986724" />
+    <state x="208" y="23" width="1024" height="822" key="SettingsEditor" timestamp="1601061541791">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="208" y="23" width="1024" height="822" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1601061541791" />
+    <state width="720" height="411" key="XDebugger.FullValuePopup" timestamp="1601248929103">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1601067068096" />
+    <state width="720" height="411" key="XDebugger.FullValuePopup/0.23.1440.822@0.23.1440.822" timestamp="1601248929103" />
     <state x="143" y="146" key="new project wizard" timestamp="1600909297102">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="143" y="135" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1600820003274" />
     <state x="143" y="146" key="new project wizard/0.23.1440.822@0.23.1440.822" timestamp="1600909297102" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/LexicalAnalyzer.scala</url>
+          <line>332</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/SyntaxAnalyzer.scala</url>
+          <line>300</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Programming_assignment_01$SyntaxAnalyzer.ic" NAME="SyntaxAnalyzer Coverage Results" MODIFIED="1601238315928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-import LexicalAnalyzer.{ARITHMETIC_EXPR, ASSGM_STMT, WORD_TO_TOKEN}
+import LexicalAnalyzer.{ ASSGM_STMT, BASIC_OP, WORD_TO_TOKEN}
 
 import scala.io.Source
 
@@ -33,8 +33,10 @@ class LexicalAnalyzer(private var source: String) extends Iterable[LexemeUnit] {
       CharClass.DIGIT
     else if (LexicalAnalyzer.BLANKS.contains(c))
       CharClass.BLANK
-    else if (c == '+' || c == '-' || c == '*' || c == '/' ||  c == '>' || c == '<' || c == '=')
+    else if (c == '+' || c == '-' || c == '*' || c == '/' || c == '=')
       CharClass.OPERATOR
+    else if ( c == '<' || c == '>' || c == '=')
+      CharClass.COMPARISON
     else if (c == '.' || c == ',' || c == ';' || c == ':')
       CharClass.PUNCTUATOR
     else if (c == '(' || c == ')')
@@ -103,7 +105,7 @@ class LexicalAnalyzer(private var source: String) extends Iterable[LexemeUnit] {
               return new LexemeUnit(lexeme, Token.IDENTIFIER)
             }
 
-            // TODO: recognize multiple digits as a literal
+            // TODO: recognize a Int_literal
             if (charClass == CharClass.DIGIT) {
               input = input.substring(1)
               lexeme += c
@@ -122,34 +124,72 @@ class LexicalAnalyzer(private var source: String) extends Iterable[LexemeUnit] {
                     noMoreDigits = true
                 }
               }
-              return new LexemeUnit(lexeme, Token.LITERAL)
+              return new LexemeUnit(lexeme, Token.INT_LITERAL)
             }
 
             // TODO: recognize operators
             if (charClass == CharClass.OPERATOR) {
               input = input.substring(1)
               lexeme += c
-              var noMoreLetters = false
-              while (!noMoreLetters) {
+
+              c match {
+                case '+' => return new LexemeUnit(lexeme, Token.ADD_OP)
+                case '-' => return new LexemeUnit(lexeme, Token.SUB_OP)
+                case '*' => return new LexemeUnit(lexeme, Token.MUL_OP)
+                case '/' => return new LexemeUnit(lexeme, Token.DIV_OP)
+//                case '>' => return new LexemeUnit(lexeme, Token.GREATER_OP)
+//                case '<' => return new LexemeUnit(lexeme, Token.LESS_OP)
+//                case '=' => return new LexemeUnit(lexeme, Token.EQUAL_OP)
+              }
+            }
+            if (charClass == CharClass.COMPARISON) {
+              input = input.substring(1)
+              lexeme += c
+              var noMoreLetterDigits = false
+              while (!noMoreLetterDigits) {
                 if (input.length == 0)
-                  noMoreLetters = true
+                  noMoreLetterDigits = true
                 else {
                   c = input(0)
-                  charClass = getCharClass(c)
-                  if (charClass == CharClass.OPERATOR) {
+                  //                  charClass = getCharClass(c)
+                  if (c == '=') {
                     input = input.substring(1)
                     lexeme += c
                   }
                   else
-                    noMoreLetters = true
+                    noMoreLetterDigits = true
                 }
               }
-              if (ARITHMETIC_EXPR.contains(lexeme))
-                return new LexemeUnit(lexeme, ARITHMETIC_EXPR.get(lexeme).get)
-              else
-                return new LexemeUnit(lexeme, Token.OPERATOR)
-
+              return new LexemeUnit(lexeme, Token.ARITHMETIC_EXPR)
             }
+
+            // TODO: recognize operators
+//            if (charClass == CharClass.OPERATOR) {
+//              input = input.substring(1)
+//              lexeme += c
+//              var noMoreLetters = false
+//              while (!noMoreLetters) {
+//                if (input.length == 0)
+//                  noMoreLetters = true
+//                else {
+//                  c = input(0)
+//                  charClass = getCharClass(c)
+//                  if (charClass == CharClass.OPERATOR) {
+//                    input = input.substring(1)
+//                    lexeme += c
+//                  }
+//                  else
+//                    noMoreLetters = true
+//                }
+//              }
+//              if (ARITHMETIC_EXPR.contains(lexeme))
+//                return new LexemeUnit(lexeme, ARITHMETIC_EXPR.get(lexeme).get)
+////              else if (BASIC_OP.contains(lexeme))
+////                return new LexemeUnit(lexeme, BASIC_OP.get(lexeme).get)
+//              else
+//                return new LexemeUnit(lexeme, Token.OPERATOR)
+//
+//            }
 
             // TODO: recognize delimiters
             if (charClass == CharClass.DELIMITER) {
@@ -191,27 +231,30 @@ class LexicalAnalyzer(private var source: String) extends Iterable[LexemeUnit] {
               }
             } // end punctuators
 
-            // TODO: recognize arithmetic expressions
-            if (charClass == CharClass.OPERATOR) {
-              input = input.substring(1)
-              lexeme += c
-              var noMoreLetters = false
-              while (!noMoreLetters) {
-                if (input.length == 0)
-                  noMoreLetters = true
-                else {
-                  c = input(0)
-                  charClass = getCharClass(c)
-                  if (charClass == CharClass.OPERATOR) {
-                    input = input.substring(1)
-                    lexeme += c
-                  }
-                  else
-                    noMoreLetters = true
-                }
-              }
-                return new LexemeUnit(lexeme, Token.ARITHMETIC_EXPR)
-            }
+
+//            // TODO: recognize arithmetic expressions
+//            if (charClass == CharClass.OPERATOR) {
+//              input = input.substring(1)
+//              lexeme += c
+//              var noMoreLetters = false
+//              while (!noMoreLetters) {
+//                if (input.length == 0)
+//                  noMoreLetters = true
+//                else {
+//                  c = input(0)
+//                  charClass = getCharClass(c)
+//                  if (charClass == CharClass.OPERATOR) {
+//                    input = input.substring(1)
+//                    lexeme += c
+//                  }
+//                  else
+//                    noMoreLetters = true
+//                }
+//              }
+//                return new LexemeUnit(lexeme, Token.ARITHMETIC_EXPR)
+//            }
+
+
 
 
 
@@ -244,12 +287,34 @@ object LexicalAnalyzer {
     "write"    -> Token.WRITE_STMT,
     "program"  -> Token.PROGRAM,
     "var"      -> Token.VAR,
-    "while"    -> Token.WHILE_STMT
+    "while"    -> Token.WHILE_STMT,
+    ";"        -> Token.SEMI_COL,
+    ":"        -> Token.COLON,
+    "."        -> Token.PERIOD,
+    "Integer"  -> Token.INTEGER,
+//    "<=" -> Token.LESS_OP,
+//    ">=" -> Token.GREATER_OP,
+    "end" -> Token.END,
+    "do"  -> Token.DO_STMT,
+    "true" -> Token.TRUE,
+    "false" -> Token.FALSE,
+    "then" -> Token.THEN_STMT,
+    "else" -> Token.ELSE_STMT
   )
-  val ARITHMETIC_EXPR = Map(
-    "<=" -> Token.LESS_OP,
-    ">=" -> Token.GREATER_OP,
+  val BASIC_OP = Map(       // dont think I need this
+    "+"  -> Token.ADD_OP,
+    "-"  -> Token.SUB_OP,
+    "*"  -> Token.MUL_OP,
+    "/"  -> Token.DIV_OP,
+    "<"  -> Token.GREATER_OP,
+    ">"  -> Token.LESS_OP,
+    "="  -> Token.EQUAL_OP,
   )
+
+//  val ARITHMETIC_EXPR = Map(
+//    "<=" -> Token.LESS_OP,
+//    ">=" -> Token.GREATER_OP,
+//  )
   val ASSGM_STMT = Map(
     ":=" -> Token.ASSGM_STMT
   )

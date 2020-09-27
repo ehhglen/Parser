@@ -2,7 +2,7 @@
  * CS3210 - Principles of Programming Languages - Fall 2020
  * Instructor: Thyago Mota
  * Description: Prg01 - Token
- * Student(s) Name(s):
+ * Student(s) Name(s): Echglene Woy
  */
 
 // TODO: update this enumeration with the token possible values
@@ -48,7 +48,6 @@ object Token extends Enumeration {
   val DIV_OP     = Value
   val DOT        = Value
   val COMMA      = Value
-  val SEMI_COL   = Value
   val COLON      = Value
   val ARITHMETIC_EXPR = Value
   val GREATER_OP = Value
@@ -56,7 +55,16 @@ object Token extends Enumeration {
   val EQUAL_OP = Value
   val ASSGM_STMT = Value
   var WHILE_STMT = Value
+  var DO_STMT = Value
+  val TRUE = Value
+  val FALSE = Value
+  val INT_LITERAL = Value
+  val THEN_STMT = Value
+  val ELSE_STMT = Value
 
+  val SEMI_COL        = Value
+  //val COL             = Value
+  val PERIOD          = Value
 
 
 
